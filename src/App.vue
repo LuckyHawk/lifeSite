@@ -10,6 +10,20 @@
       <div style="clear:both"></div>
     </nav>
     <router-view/>
+    <footer id="foot">
+      <div class="contact">
+        <img src="./assets/phone.png"/>
+        <span>182-xxxx-1369</span>
+      </div>
+      <div class="contact">
+        <img src="./assets/phone.png"/>
+        <span>182-xxxx-1369</span>
+      </div>
+      <div class="contact">
+        <img src="./assets/phone.png"/>
+        <span>182-xxxx-1369</span>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -34,7 +48,7 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-
+    min-width: 1000px;
   }
   #navbar {
     margin-bottom:10px;
@@ -64,4 +78,19 @@ export default {
     display:inline-block;
     margin:0 20px;
   }
+
+  #foot {
+    margin: 10px auto;
+    padding: 0 200px;
+  }
+  .contact {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 0 20px;
+  }
+  .contact span{
+    display: block;
+  }
+
 </style>
